@@ -11,5 +11,10 @@ pipeline {
                 sh 'yarn install'
             }
         }
+        stage('deploy for development') {
+            steps {
+                sh 'yarn run start'
+            }
+        }
     }
 }
