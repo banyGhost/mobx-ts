@@ -10,12 +10,9 @@ pipeline {
                 sh 'yarn install'
             }
         }
-        stage('deploy for development') {
+        stage('Deploy for production') {
             steps {
-                sh 'chmod -R 777 ./jenkins/script'
-                sh './jenkins/script/dev.sh'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
-                sh './jenkins/scripts/kill.sh'
+                sh './deploy.sh'
             }
         }
     }
