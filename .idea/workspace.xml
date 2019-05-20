@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2d6565-a9c7-4a5b-8fba-01944f444d83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jenkins/script/dev.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/script/build.sh" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +38,7 @@
           <entry key="js" value="16" />
           <entry key="json" value="21" />
           <entry key="less" value="11" />
-          <entry key="sh" value="3" />
+          <entry key="sh" value="5" />
           <entry key="ts" value="90" />
           <entry key="tsx" value="104" />
         </counts>
@@ -43,7 +46,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Bash" value="3" />
+          <entry key="Bash" value="5" />
           <entry key="CSS" value="15" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
@@ -64,22 +67,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="251" />
+          <entry key="Jenkinsfile" value="285" />
           <entry key="css" value="63" />
           <entry key="js" value="128" />
           <entry key="json" value="270" />
           <entry key="less" value="159" />
+          <entry key="sh" value="5" />
           <entry key="ts" value="2093" />
           <entry key="tsx" value="5687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Bash" value="5" />
           <entry key="CSS" value="63" />
           <entry key="JSON" value="270" />
           <entry key="JavaScript" value="128" />
           <entry key="Less" value="159" />
-          <entry key="PLAIN_TEXT" value="251" />
+          <entry key="PLAIN_TEXT" value="285" />
           <entry key="TypeScript" value="2093" />
           <entry key="TypeScript JSX" value="5687" />
         </counts>
@@ -91,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -149,8 +154,10 @@
         <option value="$PROJECT_DIR$/src/config/index.ts" />
         <option value="$PROJECT_DIR$/src/components/n-layout.less" />
         <option value="$PROJECT_DIR$/src/views/index.tsx" />
-        <option value="$PROJECT_DIR$/jenkins/script/build.sh" />
         <option value="$PROJECT_DIR$/jenkins/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/jenkins/script/build.sh" />
+        <option value="$PROJECT_DIR$/jenkins/script/dev.sh" />
+        <option value="$PROJECT_DIR$/jenkins/script/kill.sh" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
@@ -188,6 +195,17 @@
             <path>
               <item name="mobx-ts" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobx-ts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobx-ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobx-ts" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobx-ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobx-ts" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,12 +279,12 @@
       <workItem from="1557482882690" duration="1010000" />
       <workItem from="1557665776910" duration="4309000" />
       <workItem from="1557987895833" duration="9760000" />
-      <workItem from="1558331462929" duration="5121000" />
+      <workItem from="1558331462929" duration="5356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47529000" />
+    <option name="totallyTimeSpent" value="47764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,13 +327,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/serviceWorker.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -609,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/script/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -623,10 +627,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/script/kill.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/script/dev.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="294">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
