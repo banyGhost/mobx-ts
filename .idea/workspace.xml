@@ -27,7 +27,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Jenkinsfile" value="5" />
+          <entry key="Jenkinsfile" value="6" />
           <entry key="css" value="15" />
           <entry key="env" value="1" />
           <entry key="html" value="1" />
@@ -50,7 +50,7 @@
           <entry key="JSON" value="18" />
           <entry key="JavaScript" value="16" />
           <entry key="Less" value="11" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="TypeScript" value="90" />
           <entry key="TypeScript JSX" value="104" />
           <entry key="tsconfig" value="2" />
@@ -64,7 +64,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="153" />
+          <entry key="Jenkinsfile" value="158" />
           <entry key="css" value="63" />
           <entry key="js" value="128" />
           <entry key="json" value="270" />
@@ -79,7 +79,7 @@
           <entry key="JSON" value="270" />
           <entry key="JavaScript" value="128" />
           <entry key="Less" value="159" />
-          <entry key="PLAIN_TEXT" value="153" />
+          <entry key="PLAIN_TEXT" value="158" />
           <entry key="TypeScript" value="2093" />
           <entry key="TypeScript JSX" value="5687" />
         </counts>
@@ -91,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="84">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -261,12 +261,12 @@
       <workItem from="1557482882690" duration="1010000" />
       <workItem from="1557665776910" duration="4309000" />
       <workItem from="1557987895833" duration="9760000" />
-      <workItem from="1558331462929" duration="3844000" />
+      <workItem from="1558331462929" duration="4075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46252000" />
+    <option name="totallyTimeSpent" value="46483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +281,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24894217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24894217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -625,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
