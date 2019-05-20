@@ -27,7 +27,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Jenkinsfile" value="6" />
+          <entry key="Jenkinsfile" value="7" />
           <entry key="css" value="15" />
           <entry key="env" value="1" />
           <entry key="html" value="1" />
@@ -50,7 +50,7 @@
           <entry key="JSON" value="19" />
           <entry key="JavaScript" value="16" />
           <entry key="Less" value="11" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="TypeScript" value="90" />
           <entry key="TypeScript JSX" value="104" />
           <entry key="tsconfig" value="2" />
@@ -91,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="231">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -261,12 +261,12 @@
       <workItem from="1557482882690" duration="1010000" />
       <workItem from="1557665776910" duration="4309000" />
       <workItem from="1557987895833" duration="9760000" />
-      <workItem from="1558331462929" duration="5027000" />
+      <workItem from="1558331462929" duration="5121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47435000" />
+    <option name="totallyTimeSpent" value="47529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +296,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.4992948" weight="0.3296433" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50070524" side_tool="true" weight="0.3296433" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49858958" weight="0.40221402" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49858958" visible="true" weight="0.40221402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -625,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="231">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

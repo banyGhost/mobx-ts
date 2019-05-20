@@ -13,7 +13,7 @@ pipeline {
         }
         stage('deploy for development') {
             steps {
-                sh 'yarn run start'
+                sh 'yarn start'
             }
         }
     }
