@@ -1,41 +1,16 @@
 import React from 'react';
-import {Router, Route} from 'react-router';
-import history from './utils/history';
-import NLayout from './components/n-layout';
+import { Router, Route } from 'react-router';
 import asyncComponent from './components/async-component';
-import {RouteProps} from 'react-router-dom';
-
-interface NRoute extends RouteProps {
-  importFunc: Function,
-  key: string
-}
-
-const routes: NRoute[] = [
-  {
-    path: '/',
-    key: '1',
-    exact: true,
-    importFunc: () => import('./views/index')
-  },
-  {
-    path: '/user',
-    key: '2',
-    exact: true,
-    importFunc: () => import('./components/j-form')
-  }
-];
+import history from './utils/history';
+import { outerRoutes } from './config/routes';
 
 const App: React.FC = () => {
   return (
-    <NLayout>
-      <Router history={history}>
-        {
-          routes.map(route =>
-            <Route {...route}  component={asyncComponent(route.importFunc)} />
-          )
-        }
-      </Router>
-    </NLayout>
+    <Router history={history}>
+      {outerRoutes.map(route => (
+        <Route path={route.path} component={asyncComponent(route.importFunc)} key={route.path} />
+      ))}
+    </Router>
   );
 };
 
