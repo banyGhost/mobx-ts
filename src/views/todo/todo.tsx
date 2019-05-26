@@ -5,6 +5,7 @@ import { Button, Popconfirm, Table } from 'antd';
 import request from '../../utils/request';
 import { AxiosResponse } from 'axios';
 import { message } from 'antd/es';
+import { nPage } from '../../components/n-page';
 
 interface Post {
   id: number;
@@ -17,6 +18,7 @@ const { Column } = Table;
 
 class PostColumn extends Column<Post> {}
 
+@nPage
 @observer
 class TodoPage extends React.Component {
   @observable
